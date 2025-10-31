@@ -1,0 +1,124 @@
+/* Global */
+body {
+  margin: 0;
+  background: #0b0b0c;
+  color: #eaeaea;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto;
+}
+
+/* Container */
+.container {
+  padding: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Header */
+.header {
+  margin-bottom: 20px;
+}
+.header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+.header p {
+  margin-top: 8px;
+  opacity: 0.85;
+}
+
+/* Stats Grid */
+.stats-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+.stat {
+  background: #141416;
+  border: 1px solid #1e1f22;
+  padding: 16px 18px;
+  border-radius: 12px;
+  min-width: 180px;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.02) inset;
+}
+.stat-label {
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+.stat-value {
+  font-size: 22px;
+  margin-top: 6px;
+}
+
+/* Controls */
+.controls {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+.input,
+.select {
+  padding: 10px 12px;
+  border-radius: 10px;
+  border: 1px solid #27292d;
+  background: #0e0f11;
+  color: #eaeaea;
+  outline: none;
+}
+.input {
+  width: 260px;
+}
+
+/* Book grid */
+.book-container {
+  margin-top: 18px;
+}
+.book-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.book-card {
+  display: flex;
+  gap: 12px;
+  background: #121316;
+  border: 1px solid #1e1f22;
+  border-radius: 12px;
+  padding: 12px;
+  align-items: center;
+}
+.book-cover {
+  width: 58px;
+  height: 86px;
+  background: #0d0e10;
+  border-radius: 8px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.book-title {
+  font-weight: 700;
+  font-size: 16px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.book-meta {
+  opacity: 0.8;
+}
+.book-link {
+  margin-top: 6px;
+  display: inline-block;
+  font-size: 13px;
+  color: #8ab4ff;
+  text-decoration: none;
+}
+
+/* Helper text */
+.results-count {
+  margin-top: 10px;
+  opacity: 0.7;
+  font-size: 13px;
+}
