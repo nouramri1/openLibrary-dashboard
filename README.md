@@ -1,61 +1,50 @@
-# Web Development Project 5 - *OpenLibrary Books Dashboard*
+# Web Development Project 6 - *OpenLibrary Dashboard*
 
-Submitted by: **Noura Amri**
+Submitted by: **Nour Amru**
 
-This web app fetches book data from the OpenLibrary API and displays a data dashboard where users can explore books by subject, search by title, and filter by publication year. The dashboard also includes summary statistics that help users learn insights about trends in book publishing.
+This web app: **fetches book data from the Open Library API and displays it in an interactive dashboard with charts and detailed views for each book. Users can search, filter by year and subject, and view detailed information for each title.**
 
-Time spent: **2.5** hours spent in total
+Time spent: **5 hours** in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [x] **The site has a dashboard displaying a list of data fetched using an API call**
-  - The dashboard displays at least 10 unique items, one per row
-  - Each row displays title, author, publish year, and book cover
-- [x] **`useEffect` React hook and `async`/`await` are used**
-- [x] **The app dashboard includes at least three summary statistics about the data** 
-  - Total number of books fetched
-  - Earliest publish year
-  - Latest publish year
-  - Average publish year
-  - Most frequent author in the dataset (mode)
-- [x] **A search bar allows the user to search for an item in the fetched data**
-  - The search bar correctly filters items live as user types
-  - Only books matching the search term are displayed
-- [x] **An additional filter allows the user to restrict displayed items by specified categories**
-  - User can filter by publication year range (e.g., 2000+, 2010+)
-  - User can filter by genre/subject (fantasy, romance, mystery, science, history)
-  - Results update dynamically
+- [x] **Clicking on an item in the list view displays more details about it**
+  - Clicking on an item in the dashboard list navigates to a detail view for that item
+  - Detail view includes extra information about the item not included in the dashboard view
+  - The same sidebar is displayed in detail view as in dashboard view
+  - *To ensure an accurate grade, your sidebar **must** be viewable when showing the details view in your recording.*
+- [x] **Each detail view of an item has a direct, unique URL link to that item’s detail view page**
+  - *To ensure an accurate grade, the URL/address bar of your web browser **must** be viewable in your recording.*
+- [x] **The app includes at least two unique charts developed using the fetched data that tell an interesting story**
+  - At least two charts are incorporated into the dashboard view of the site
+  - Each chart describes a different aspect of the dataset (books per decade and top authors)
 
 The following **optional** features are implemented:
 
-- [x] Multiple filters can be applied simultaneously
-- [x] Filters use different input types (text input + dropdown menus)
+- [ ] The site’s customized dashboard contains more content that explains what is interesting about the data 
+  - e.g., an additional description, graph annotation, suggestion for which filters to use, or an additional page that explains more about the data
+- [ ] The site allows users to toggle between different data visualizations
+  - User should be able to use some mechanism to toggle between displaying and hiding visualizations 
 
-The following **additional** features are implemented:
-
-- [x] Clean UI with custom CSS
-- [x] Book cover images displayed
-- [x] External link to OpenLibrary book page
-- [x] Live count of displayed results
 
 ## Video Walkthrough
 
-Here's a walkthrough vid:
+Here's a walkthrough of implemented user stories:
 
-(https://i.imgur.com/yG9KOfc.gif)
+<img src='https://i.imgur.com/0BEJphd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-
-GIF created with Kap
+GIF created with ...  
+*(Kap for macOS / ScreenToGif for Windows / peek for Linux)*
 
 ## Notes
 
-Challenges included properly working with the OpenLibrary API and handling objects that did not have full metadata (missing authors or publish years).
+The biggest challenge was integrating the charts and dynamic routing while maintaining a clean UI structure between the Dashboard and Book Detail pages.
 
 ## License
 
-    Copyright 2025 Noura Amri
+    Copyright 2025 Nour Amru
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
