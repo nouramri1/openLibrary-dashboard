@@ -35,12 +35,9 @@ Here's a walkthrough of implemented user stories:
 
 <img src='https://i.imgur.com/0BEJphd.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with ...  
-*(Kap for macOS / ScreenToGif for Windows / peek for Linux)*
+GIF created withKap for macOS 
 
-## Notes
 
-The biggest challenge was integrating the charts and dynamic routing while maintaining a clean UI structure between the Dashboard and Book Detail pages.
 
 ## License
 
